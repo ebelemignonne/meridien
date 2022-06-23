@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin-left: 0px;
+    padding: 0;
+}
+/*les styles commun*/
+.inline{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inline2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.colone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colone2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.colone3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.rectangle{
+    height: 150px;
+    width: 320px;
+    border: 1px solid black;
+}
+.rectangle:hover{
+    background-color: rgba(0, 0, 0, 0.27);
+    color: white;
+}
+.bouton1{
+    height: 64px;
+    width: 150px;
+    border: 1px solid black;
+}
+.bouton1:hover{
+    background-color: rgba(164, 195, 202, 0.808);
+    border: 2px solid #5f856b;
+    color: #2d753c;
+}
+.bouton2{
+    height: 60px;
+    width: 150px;
+    border: 2px solid black;
+}
+.bouton2:hover{
+    background-color: rgba(164, 195, 202, 0.808);
+    border: 2px solid #5f856b;
+    color: #2d753c;
+}
+.bouton3{
+    height: 52px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.77);
+}
+.bouton3:hover{
+    background-color: rgba(164, 195, 202, 0.808);
+    border: 2px solid #5f856b;
+    color: #2d753c;
+}
+.boutonss:hover{
+    background-color: rgba(164, 195, 202, 0.808);
+    border: 2px solid #5f856b;
+    color: #2d753c;
+}
+.boutonss{
+    height: 80px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    transform: translate(-110px, 0px);
+}
+.dim{
+    height: 110px;
+    width: 300px;
+}
+.police{
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+.police2{
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+.police3{
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+.p1{
+    transform: translate(-19px, 5px);
+}
+.p2{
+    transform: translate(-87px, 0px);
+}
+.logo1{
+    transform: translate(70px, -25px);
+}
+.logo11{
+    transform: translate(30px, -25px);
+}
+.h31{
+    transform: translate(95px, -30px);
+}
+.h311{
+    transform: translate(15px, -30px);
+}
+.icon1{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid #E89431;
+}
+
+.degrad-text{
+    color: rgba(0, 0, 0, 0.596);
+}
+.titre{
+    font: 4em sans-serif;
+    font-family: 'Abhaya libre', sans-serif;
+}
+.titre1{
+    font: 3em sans-serif;
+}
+
+/*fin des styles commun*/
+
+
+/*debut de l'en tete*/
+.tete{
+    height: 25vh;
+    width: 100%;
+}
+.img1{
+    transform: translateX(0px)
+}
+.nav1{
+    width: 700px;
+    height: 80px;
+    transform: translate(0px, -10px);
+}
+.noir1{
+    height: 65px;
+    width: 170px;
+    color: white;
+    background-color: black;
+    transform: translate(0px, -10px);
+}
+.noir1:hover{
+    background-color: rgba(164, 195, 202, 0.808);
+    border: 2px solid #5f856b;
+    color: #2d753c;
+}
+.li1{
+    border-right: none;
+
+}
+.li1 a {
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 135px;
+   
+}
+.li1 a:hover {
+    background-color: rgba(164, 195, 202, 0.808);
+  }
+.contenaire1{
+    height: 125vh;
+    width: 100%;
+    position: relative;
+}
+.gauche1{
+    height: 67vh;
+    width: 48vw;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+.droit1{
+position: absolute;
+right: -0px;
+top: -0px;
+}
+.bas1{
+    height: 140px;
+    width: 48%;
+    position: absolute;
+    transform: translate(455px, 540px);
+    background-color: rgba(255, 255, 255, 0.833);
+}
+/*fin de la page detente*/
+
+/*debut de la page Nos meilleurs chambres*/
+.contenaire2{
+    height: 140vh;
+    width: 100%;
+    background-color: #FBF7F4;
+}
+.chambre1{
+    height: 110vh;
+    width: 36.5vw;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(14px);
+}
+.appart2{
+    position: relative;
+}
+.appart22{
+    position: absolute;
+    height: 191px;
+    width: 274px;
+    background-color: rgba(255, 255, 255, 0.833);
+    transform: translate(-144px, 603px);
+}
+.appart22-a{
+    height: 100%;
+    width: 3%;
+    background-color: #E89431;
+}
+.appart22-b{
+    height: 100%;
+    width: 98%;
+}
+.appart22-b-1{
+    height: 50%;
+    width: 80%;
+    transform: translateX(15px);
+}
+.mon-h2{
+    transform: translate(25px, -10px);
+}
+.mon-h2-1{
+    transform: translate(25px, -40px);
+}
+.appart22-b-2{
+    height: 50%;
+    width: 100%;
+}
+.chambre2{
+    height: 110vh;
+    width: 42.5vw;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(-14px);
+
+}
+.appart3{
+    height: 50vh;
+    width: 100%;
+}
+.appart3a{
+    width: 100%;
+    height: 20vh;
+    transform: translate(0px, 10px);
+}
+.appart3b{
+    width: 100%;
+    height: 20vh;
+    transform: translate(0px, 40px);
+}
+.list-icon1{
+    width: 80%;
+    height: 20vh;
+    transform: translate(-35px, 0px);
+}
+.bouton2-1{
+    transform: translate(0px, 20px);
+}
+.h1-1{
+    transform: translate(-22px, -5px);
+}
+.h4-1{
+    transform: translate(-90px, -60px);
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+/*fin de la page Nos meilleurs chambres*/
+/*debut de la page Nos services*/
+.contenaire3{
+    height: 150vh;
+    width: 100%;
+}
+.parti1{
+    height: 30vh;
+    width: 90%;
+}
+.h1-2{
+    transform: translate(0px, 80px);
+}
+.h4-2{
+    text-align: center;
+    transform: translateY(20px);
+}
+.h2-3{
+    transform: translateY(-8px);
+}
+.logo3{
+    transform: translateY(8px);
+}
+.parti2{
+    height: 40vh;
+    width: 90%;
+}
+.parti3{
+    height: 62.5vh;
+    width: 90%;
+}
+.parti3-b{
+    height: 62.5vh;
+    width: 50%;
+}
+.restaurant{
+    font-size: 2.5em;
+    transform: translate(30px, -44px);
+}
+.h4-3{
+    transform: translate(7px, -60px);
+}
+.rectangle1{
+    background-color: black;
+}
+.restaur{
+    color: #E89431;
+}
+.ul-1{
+    transform: translate(-60px, -80px);
+}
+.ul-1 li,
+.ul-2 li{
+    color: #E89431;
+}
+.ul-1 li span,
+.ul-2 li span{
+    color: rgba(0, 0, 0, 0.596);
+}
+.ul-2{
+    transform: translate(-100px, -80px);
+}
+.bouton2-2{
+    transform: translate(50px, -42px);
+}
+/*fin de la page Nos services*/
+
+/*debut de la page Découvrez notre galerie d’hotels*/
+.contenaire4{
+    height: 140vh;
+    width: 100%;
+}
+.contenaire4-1{
+    width: 60%;
+    height: 30vh;
+}
+.contenaire4-1-1{
+    width: 90%;
+    transform: translate(0px, -20px);
+}
+.contenaire4-2{
+    height: 100vh;
+    width: 90%;
+}
+.contenaire4-2-1{
+    height: 100vh;
+    width: 32%;
+}
+.h4-4{
+    transform: translate(-18px, -10px);
+}
+.h4-5{
+    transform: translate(-6px, -10px);
+}
+.bouton2-3{
+    transform: translate(-120px, -30px);
+
+}
+/*fin de la page Découvrez notre galerie d’hotels*/
+/*debut de la page Que disent les clients ?*/
+.contenaire5{
+    height: 170vh;
+    width: 100%;
+    background-color: #FBF7F4;
+}
+.contenaire5-1{
+    height: 80vh;
+    width: 90%;
+}
+.contenaire5-1-1{
+    height: 70vh;
+    width: 100%;
+}
+.contenaire5-1-2{
+    height: 100%;
+    width: 40%;
+}
+.img1{
+    transform: translate();
+}
+.img2{
+    transform: translate(0px, -120px);
+}
+.img3{
+    transform: translate(0px, -200px);
+}
+.contenaire5-1-3{
+    height: 100%;
+    width: 60%;
+}
+.h1-5{
+    transform: translate(18px, 65px);
+
+}
+.p5{
+    transform: translate(19px, 60px);
+
+}
+.h4-6{
+    transform: translate(-30px, 85px);
+}
+.h2-6{
+    transform: translate(19px, 75px);
+
+}
+.etoile{
+    transform: translate(424px, 10px);
+    width: 118px;
+
+}
+.fleche1{
+    height: 40px;
+    width: 45px;
+    border: 2px solid black;
+    transform: translate(287px, 60px);
+}
+.fleche2{
+    height: 40px;
+    width: 45px;
+    border: 2px solid black;
+    background-color: black;
+    transform: translate(148px, 60px);
+
+}
+/*debut du footer*/
+.contenaire5-2{
+    height: 60vh;
+    width: 100%;
+}
+
+
+.foot2{
+    height: 100%;
+    width: 42%;
+    transform: translateX(-70px);
+}
+.foot2-1{
+    height: 50%;
+    width: 100%;
+    transform: translate(0px, -42px);
+}
+.h1-foot{
+    transform: translate(-60px, -15px);
+}
+.h4-foot{
+    transform: translate(70px, -55px);
+
+}
+.foot2-2{
+    height: 50%;
+    width: 100%;
+    transform: translate(0px, -71px);
+}
+.foot2-2-a{
+    height: 40%;
+    width: 83%;
+    transform: translate(20px, -20px);
+}
+.foot2-2-b{
+    height: 40%;
+    width: 83%;
+    transform: translate(20px, -20px);
+}
+.foot2-2-4{
+    background-color: black;
+    color: white;
+}
+.foot1{
+    height: 100%;
+    width: 58%;
+    background-color: black;
+    transform: translateX(-70px);
+}
+.foot1-1{
+    height: 40%;
+    width: 100%;
+}
+.foot1-1-d{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background-color: white;
+}
+.foot1-1-a{
+    width: 190px;
+    transform: translate(-180px, 30px);
+
+}
+.foot1-2{
+    height: 60%;
+    width: 88%;
+
+}
+.foot1-2-a{
+    height: 100%;
+    width: 27%;
+    transform: translate(85px, 0px);
+}
+
+input{
+    border: none;
+    background-color: #FBF7F4;
+}
+input:hover{
+ background-color:  rgba(188, 227, 235, 0.838);
+}
+
+
+
